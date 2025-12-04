@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clone-tracker"
+version = "0.1.0"
+description = "Real-time clone tracker with neon effects, recording, GUI and gesture recognition"
+authors = [{name="Tarun"}]
+dependencies = [
+  "opencv-python",
+  "mediapipe",
+  "numpy",
+  "matplotlib"
+  
+]
